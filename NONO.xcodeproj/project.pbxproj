@@ -14,6 +14,7 @@
 		24CB610D1BB383120084DAC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CB610C1BB383120084DAC3 /* Images.xcassets */; };
 		24CB61101BB383120084DAC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CB610E1BB383120084DAC3 /* LaunchScreen.xib */; };
 		24CB611C1BB383120084DAC3 /* NONOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB611B1BB383120084DAC3 /* NONOTests.m */; };
+		24DB96241BCDF6FE00CA29EE /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DB96231BCDF6FE00CA29EE /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		24CB61151BB383120084DAC3 /* NONOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NONOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CB611A1BB383120084DAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CB611B1BB383120084DAC3 /* NONOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NONOTests.m; sourceTree = "<group>"; };
+		24DB96221BCDF6FE00CA29EE /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		24DB96231BCDF6FE00CA29EE /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		24CB60F31BB383120084DAC3 = {
 			isa = PBXGroup;
 			children = (
+				24DB96221BCDF6FE00CA29EE /* BViewController.h */,
+				24DB96231BCDF6FE00CA29EE /* BViewController.m */,
 				24CB60FE1BB383120084DAC3 /* NONO */,
 				24CB61181BB383120084DAC3 /* NONOTests */,
 				24CB60FD1BB383120084DAC3 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CB61081BB383120084DAC3 /* ViewController.m in Sources */,
+				24DB96241BCDF6FE00CA29EE /* BViewController.m in Sources */,
 				24CB61051BB383120084DAC3 /* AppDelegate.m in Sources */,
 				24CB61021BB383120084DAC3 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				24CB61211BB383120084DAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24CB61221BB383120084DAC3 /* Build configuration list for PBXNativeTarget "NONOTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				24CB61241BB383120084DAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

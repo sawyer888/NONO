@@ -16,8 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self initColor];
 }
+
+- (void)initColor
+{
+     [self.view setBackgroundColor:[UIColor yellowColor]];
+    
+}
+
+
+- (void)download_completed
+{
+    for (int i = 0; i<10000;i++ ) {
+        NSLog(@"%d",i);
+    }
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
